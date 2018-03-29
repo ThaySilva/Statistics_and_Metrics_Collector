@@ -59,8 +59,9 @@ static void updateRoverOrientation() {
 
   // Update orientation
   if (orientation != lastOrientation) {
-    Serial.print("Rover's Current Position: ");
-    Serial.println(orientationString);
+//    Serial.print("Rover's Current Position: ");
+//    Serial.println(orientationString);
+    Serial.println(orientation);
     lastOrientation = orientation;
   }
 }
